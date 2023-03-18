@@ -33,8 +33,6 @@ class App extends Component {
     this.setState({ loading: false });
   }
   render() {
-    //let randomNumber=Math.floor(Math.random() * 100);
-    //let url="https://source.unsplash.com/random/400x280?people-face?sig="+randomNumber;
     return (
       <div className="App">
         {this.state.loading ? (
